@@ -13,6 +13,9 @@ class TestPurchaseForceInvoiced(BaseCommon):
     @classmethod
     def setUpClass(cls):
         super().setUpClass()
+        cls.env["account.chart.template"].try_loading(
+            "generic_coa", company=cls.env.company, install_demo=False
+        )
         cls.purchase_order_model = cls.env["purchase.order"]
         cls.purchase_order_line_model = cls.env["purchase.order.line"]
         cls.account_invoice_model = cls.env["account.move"]
