@@ -21,15 +21,39 @@ Available addons
 ----------------
 addon | version | maintainers | summary
 --- | --- | --- | ---
+[partner_supplierinfo_smartbutton](partner_supplierinfo_smartbutton/) | 19.0.1.0.0 | <a href='https://github.com/victoralmau'><img src='https://github.com/victoralmau.png' width='32' height='32' style='border-radius:50%;' alt='victoralmau'/></a> | Access supplied products from the vendor
+[procurement_purchase_no_grouping](procurement_purchase_no_grouping/) | 19.0.1.0.0 |  | Procurement Purchase No Grouping
+[product_main_seller](product_main_seller/) | 19.0.1.0.0 | <a href='https://github.com/legalsylvain'><img src='https://github.com/legalsylvain.png' width='32' height='32' style='border-radius:50%;' alt='legalsylvain'/></a> <a href='https://github.com/quentinDupont'><img src='https://github.com/quentinDupont.png' width='32' height='32' style='border-radius:50%;' alt='quentinDupont'/></a> | Main Vendor for a product
 [product_supplier_code_purchase](product_supplier_code_purchase/) | 19.0.1.0.0 |  | This module adds to the purchase order line the supplier code defined in the product.
+[purchase_advance_payment](purchase_advance_payment/) | 19.0.1.0.0 | <a href='https://github.com/LoisRForgeFlow'><img src='https://github.com/LoisRForgeFlow.png' width='32' height='32' style='border-radius:50%;' alt='LoisRForgeFlow'/></a> | Allow to add advance payments on purchase orders
 [purchase_allowed_product](purchase_allowed_product/) | 19.0.1.0.0 |  | This module allows to select only products that can be supplied by the vendor
-[purchase_force_invoiced](purchase_force_invoiced/) | 19.0.1.0.0 |  | Allows to force the billing status of the purchase order to "Invoiced"
+[purchase_auto_bill_on_receipt](purchase_auto_bill_on_receipt/) | 19.0.1.0.0 | <a href='https://github.com/yostashiro'><img src='https://github.com/yostashiro.png' width='32' height='32' style='border-radius:50%;' alt='yostashiro'/></a> <a href='https://github.com/aungkokolin1997'><img src='https://github.com/aungkokolin1997.png' width='32' height='32' style='border-radius:50%;' alt='aungkokolin1997'/></a> | Automatically create and post Vendor Bills when receipts are validated
+[purchase_default_terms_conditions](purchase_default_terms_conditions/) | 19.0.1.0.0 |  | This module allows purchase default terms & conditions
+[purchase_delivery_split_date](purchase_delivery_split_date/) | 19.0.1.0.0 |  | Allows Purchase Order you confirm to generate one Incoming Shipment for each expected date indicated in the Purchase Order Lines
+[purchase_deposit](purchase_deposit/) | 19.0.1.0.0 |  | Option to create deposit from purchase order
+[purchase_force_invoiced](purchase_force_invoiced/) | 19.0.1.0.1 |  | Allows to force the billing status of the purchase order to "Invoiced"
+[purchase_invoice_method](purchase_invoice_method/) | 19.0.1.0.0 |  | Allow to force the invoice method of a purchase
+[purchase_landed_cost](purchase_landed_cost/) | 19.0.1.0.0 |  | Purchase cost distribution
+[purchase_line_reassign](purchase_line_reassign/) | 19.0.1.0.0 |  | Purchase Line Reassign
+[purchase_no_rfq](purchase_no_rfq/) | 19.0.1.0.1 | <a href='https://github.com/legalsylvain'><img src='https://github.com/legalsylvain.png' width='32' height='32' style='border-radius:50%;' alt='legalsylvain'/></a> | Purchase Order - No Request For Quotation
+[purchase_order_approved](purchase_order_approved/) | 19.0.1.0.2 |  | Add a new state 'Approved' in purchase orders.
 [purchase_order_general_discount](purchase_order_general_discount/) | 19.0.1.0.0 |  | General discount per purchase order
+[purchase_order_line_description](purchase_order_line_description/) | 19.0.1.0.0 |  | Purchase order line description
+[purchase_order_line_menu](purchase_order_line_menu/) | 19.0.1.0.0 |  | Adds Purchase Order Lines Menu
+[purchase_order_line_sequence](purchase_order_line_sequence/) | 19.0.1.0.0 |  | Adds sequence to PO lines and propagates it toInvoice lines and Stock Moves
 [purchase_order_owner](purchase_order_owner/) | 19.0.1.0.0 |  | Purchase Order Owner
-[purchase_order_type](purchase_order_type/) | 19.0.1.0.0 |  | Purchase Order Type
+[purchase_order_supplierinfo_update](purchase_order_supplierinfo_update/) | 19.0.1.0.0 | <a href='https://github.com/ernestotejeda'><img src='https://github.com/ernestotejeda.png' width='32' height='32' style='border-radius:50%;' alt='ernestotejeda'/></a> | Update product supplierinfo with the last purchase price
+[purchase_order_type](purchase_order_type/) | 19.0.1.0.2 |  | Purchase Order Type
 [purchase_order_weight_volume](purchase_order_weight_volume/) | 19.0.1.0.0 | <a href='https://github.com/ilyasProgrammer'><img src='https://github.com/ilyasProgrammer.png' width='32' height='32' style='border-radius:50%;' alt='ilyasProgrammer'/></a> | Display purchase order weight and volume
-[purchase_request](purchase_request/) | 19.0.1.0.0 |  | Use this module to have notification of requirements of materials and/or external services and keep track of such requirements.
+[purchase_partner_incoterm](purchase_partner_incoterm/) | 19.0.1.1.1 | <a href='https://github.com/TDu'><img src='https://github.com/TDu.png' width='32' height='32' style='border-radius:50%;' alt='TDu'/></a> <a href='https://github.com/bealdav'><img src='https://github.com/bealdav.png' width='32' height='32' style='border-radius:50%;' alt='bealdav'/></a> | Add a an incoterm field for supplier and use it on purchase order
+[purchase_reception_status](purchase_reception_status/) | 19.0.1.0.0 | <a href='https://github.com/alexis-via'><img src='https://github.com/alexis-via.png' width='32' height='32' style='border-radius:50%;' alt='alexis-via'/></a> | Add reception status on purchase orders (OCA logic)
+[purchase_request](purchase_request/) | 19.0.1.0.1 |  | Use this module to have notification of requirements of materials and/or external services and keep track of such requirements.
+[purchase_security](purchase_security/) | 19.0.1.0.0 | <a href='https://github.com/pilarvargas-tecnativa'><img src='https://github.com/pilarvargas-tecnativa.png' width='32' height='32' style='border-radius:50%;' alt='pilarvargas-tecnativa'/></a> | See only your purchase orders
+[purchase_stock_date_done_revaluation](purchase_stock_date_done_revaluation/) | 19.0.1.0.0 | <a href='https://github.com/yostashiro'><img src='https://github.com/yostashiro.png' width='32' height='32' style='border-radius:50%;' alt='yostashiro'/></a> <a href='https://github.com/aungkokolin1997'><img src='https://github.com/aungkokolin1997.png' width='32' height='32' style='border-radius:50%;' alt='aungkokolin1997'/></a> | Revalue not-yet-billed foreign-currency purchase receipts when their effective date changes
 [purchase_stock_price_unit_sync](purchase_stock_price_unit_sync/) | 19.0.1.0.0 |  | Update cost price in stock moves already done
+[purchase_tag](purchase_tag/) | 19.0.1.1.0 |  | Allows to add multiple tags to purchase orders
+[sale_purchase_force_vendor](sale_purchase_force_vendor/) | 19.0.1.0.0 | <a href='https://github.com/victoralmau'><img src='https://github.com/victoralmau.png' width='32' height='32' style='border-radius:50%;' alt='victoralmau'/></a> | Sale Purchase Force Vendor
+[supplier_calendar](supplier_calendar/) | 19.0.1.0.0 | <a href='https://github.com/LoisRForgeFlow'><img src='https://github.com/LoisRForgeFlow.png' width='32' height='32' style='border-radius:50%;' alt='LoisRForgeFlow'/></a> | Supplier Calendar
 
 [//]: # (end addons)
 
